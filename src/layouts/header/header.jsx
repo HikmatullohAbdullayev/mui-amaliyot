@@ -5,25 +5,33 @@ import { HeaderSearch } from "./components/header-search";
 import { HeaderButton } from "./components/header-button";
 import { COLORS } from "../../config/colors";
 import { Navbar } from "./components/navbar";
-export const Header = () => {
+ export const Header = () => {
 
     return(
-       <HeaderStyle>
+       <>
+        <HeaderStyle>
     <Container>
     <Stack direction="row">
         <HeaderSearch/>
         <HeaderButton/>
     </Stack>
     </Container>
-    <Navbar/>
        </HeaderStyle>
+    <Navbar/>
+       </>
     )
 }
+
+
+
+
+
+
 const HeaderStyle = styled.header`
 padding: 16px 0;
 `
 
-// const NavbarStyle = styled.nav`
+const NavbarStyle = styled.nav`
 
-// border-top: 1px solid ${COLORS.lunarRock};
-// `
+border-top: 1px solid ${COLORS.lunarRock};
+`
