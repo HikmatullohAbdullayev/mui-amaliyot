@@ -8,18 +8,18 @@ export const MainLayout = () => {
     return(
         <Wrapper>
        <div className="wrapper"> 
-       <header>
-            <Header/>
-        </header>
+       <Header>
+            
+       </Header>
         <main>
             <Outlet/>
         </main>
         </div>
 
 
-        <footer>
-            <Footer/>
-        </footer>
+        <Footer>
+
+        </Footer>
         </Wrapper>
     )
 }
