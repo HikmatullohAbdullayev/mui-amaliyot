@@ -32,6 +32,7 @@ import { Navbar } from "./components/navbar";
 
 const HeaderStyle = styled.header`
 padding: 16px 0;
+margin: 0 auto;
 `
 
 const NavbarStyle = styled.nav`
