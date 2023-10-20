@@ -3,6 +3,7 @@ import React from "react";
 import styled from "styled-components";
 import { HeaderSearch } from "./components/header-search";
 import { HeaderButton } from "./components/header-button";
+import { HeaderButtons } from "./components/heade-buttons";
 import { COLORS } from "../../config/colors";
 import { Navbar } from "./components/navbar";
  export const Header = () => {
@@ -14,6 +15,7 @@ import { Navbar } from "./components/navbar";
     <Stack direction="row">
         <HeaderSearch/>
         <HeaderButton/>
+        <HeaderButtons/>
     </Stack>
     </Container>
        </HeaderStyle>

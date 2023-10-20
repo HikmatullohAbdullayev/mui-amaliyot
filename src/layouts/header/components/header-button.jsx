@@ -16,14 +16,15 @@ export const HeaderButton = () =>{
     )
 }
 
-const TelName = styled.p`
+const TelName = styled.a`
 color: #C5C5C5;
 font-size: 12px;
 font-weight: 700;
 text-align: right;
 `
 
-const TelLink = styled.a`
+const TelLink = styled.p`
+padding-right: 40px;
 color: #000;
 text-align: right;
 font-size: 16px;
