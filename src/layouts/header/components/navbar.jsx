@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Stack } from "@mui/material";
+import { Container, Stack } from "@mui/material";
 import { COLORS } from "../../../config/colors";
 export const Navbar = () =>{
 
@@ -8,7 +8,9 @@ export const Navbar = () =>{
         <>
            <Line>
            <Stack justifyContent={"space-between"}> 
-            <NavList>
+           <Container>
+
+           <NavList>
                 <li>Сигареты</li>
                 <li>Одноразки</li>
                 <li>Iqos, glo</li>
@@ -19,6 +21,7 @@ export const Navbar = () =>{
                 <li>Все для кальяна</li>
                 <li>Аксессуары</li>
             </NavList>
+           </Container>
 
             </Stack>
            </Line>

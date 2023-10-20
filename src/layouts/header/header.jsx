@@ -17,6 +17,7 @@ import { Navbar } from "./components/navbar";
     </Stack>
     </Container>
        </HeaderStyle>
+       
     <Navbar/>
        </>
     )

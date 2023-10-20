@@ -13,10 +13,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ThemeProvider theme={theme}>
   <CssBaseline/>
   <GlobalStyle/>
-  <Container>
 
     <App />
-  </Container>
   </ThemeProvider>
   </BrowserRouter>
 

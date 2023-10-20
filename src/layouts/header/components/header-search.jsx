@@ -11,7 +11,7 @@ export const HeaderSearch = () =>{
     return(
         <Stack padding="25px 0" alignItems="center"  maxWidth="1153px" gap="53px" width="100%" direction="row">
         <Link to={PATHS.home}>
-            <img src={logo}/>
+            <img src={logo} alt="logo" width={111}/>
         </Link>
         <InputBlock>
             <SearchInput name="search" placeholder="search"/>

@@ -16,7 +16,7 @@ a{
 }
 body{
     font-family: "Bebas Neue", sans-serif;
-    background-color: ${COLORS.lynxWhite};
+    background-color:${COLORS.lynxWhite};
 }
 
 
